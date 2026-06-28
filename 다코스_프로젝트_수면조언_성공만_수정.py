@@ -2447,14 +2447,14 @@ drive.mount('/content/drive')
 # 3. 깃허브 원격 저장소로 푸시
 !git push origin main
 
-"""# 깃허브 지운 코드(노트북이 알고 이쓴 내용)
-!git clone https://github.com/imminjoouuoouu/26-1-team5.git
+"""# 깃허브 지운 코드(노트북이 알고 이쓴 내용) 이것도 지움
+!git clone https://github.com/imm/26-1-team5.git
 %cd 26-1-team5
 !git add .
 !git commit -m "add colab code"
 !git push
-원격 저장소 주소를 토큰이 포함된 주소로 갱신합니다.
-!git remote set-url origin https://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@github.com/imminjoouuoouu/26-1-team5.git
+원격 저장소 주소를 토큰이 포함된 주소로 갱신합니다. 토큰 지움
+!git remote set-url origin https://Z4HuDWp@github.com/i/26-1-team5.git
 !git add README.md
 !git commit -m "docs: README.md 추가"
 !git push origin main
