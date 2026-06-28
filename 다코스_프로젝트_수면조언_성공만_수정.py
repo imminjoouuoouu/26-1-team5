@@ -842,7 +842,7 @@ print("✅ 라이브러리 로드 완료")
 # =========================================================
 # CELL 3 — Gemini API 초기화 (Secret 버전)
 # =========================================================
-#GEMINI_API_KEY = "AIzaSyDgjWuwPUOsbFErTtoOvx7liJ1NuoMia3Q"
+#GEMINI_API_KEY = ""
 '''
 from google.colab import userdata
 import google.generativeai as genai
@@ -1491,8 +1491,8 @@ print("✅ 라이브러리 로드 완료")
 
 from google import genai
 
-# ↓ 여기에 본인 API 키 직접 입력
-GEMINI_API_KEY = "AIzaSyDgjWuwPUOsbFErTtoOvx7liJ1NuoMia3Q"
+# ↓ 여기에 본인 API 키 직접 입력 보안상으로 고쳐놓음
+GEMINI_API_KEY = "aIzaSyDgjWuwPUOsbFErTtoOvx7liJ1NuoMia3Q"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 MODEL_NAME = "gemini-2.5-flash"
